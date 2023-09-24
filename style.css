@@ -122,3 +122,14 @@ hr{
     justify-content: center;
     text-align: center;
 }
+.ethicsimg{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    opacity: 75%;
+    transition: transform .4s tilt;
+}
+.ethicsimg:hover{
+    transform: rotate(4deg);
+    opacity: 90%;
+}
